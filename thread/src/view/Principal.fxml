@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="664.0" prefWidth="925.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="653.0" fitWidth="796.0" layoutX="-2.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/arvoresView.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="txtIdadePai" layoutX="767.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Idades" wrappingWidth="63.13671875" />
+      <Text layoutX="767.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pai" wrappingWidth="36.13671875" />
+      <Text layoutX="767.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filho1" />
+      <Text layoutX="767.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filho2" />
+      <Text layoutX="767.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filho3" />
+      <Text layoutX="767.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Neto1" />
+      <Text layoutX="767.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Neto2" />
+      <Text layoutX="767.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bisneto" />
+      <Text fx:id="txtIdadeFilho1" layoutX="870.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+      <Text fx:id="txtIdadeFilho2" layoutX="870.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+      <Text fx:id="txtIdadeFilho3" layoutX="870.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+      <Text fx:id="txtIdadeNeto1" layoutX="870.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+      <Text fx:id="txtIdadeNeto2" layoutX="870.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="txtIdadeBisneto" layoutX="870.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+      <Text fx:id="txtIdadeNeto2" layoutX="870.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+      <ImageView fx:id="imageViewFilho1" fitHeight="85.0" fitWidth="137.0" layoutX="338.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="txtFilho1" layoutX="380.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filho1" />
+      <Text fx:id="txtPai" layoutX="396.0" layoutY="593.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pai" />
+      <ImageView fx:id="imageViewPai" fitHeight="96.0" fitWidth="115.0" layoutX="346.0" layoutY="484.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageViewFilho2" fitHeight="85.0" fitWidth="129.0" layoutX="184.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="txtFilho2" layoutX="233.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filho2" />
+      <Text fx:id="txtFilho3" layoutX="536.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filho3" />
+      <ImageView fx:id="imageViewFilho3" fitHeight="85.0" fitWidth="129.0" layoutX="503.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="txtNeto2" layoutX="233.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Neto2" />
+      <Text fx:id="txtNeto1" layoutX="385.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Neto1" />
+      <Text layoutX="556.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <ImageView fx:id="imageViewNeto2" fitHeight="79.0" fitWidth="129.0" layoutX="185.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageViewNeto1" fitHeight="64.0" fitWidth="137.0" layoutX="343.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="txtBisneto" layoutX="381.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bisneto" />
+      <ImageView fx:id="imageViewBisneto" fitHeight="85.0" fitWidth="129.0" layoutX="336.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="txtIdadePai" layoutX="870.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+   </children>
+</AnchorPane>
